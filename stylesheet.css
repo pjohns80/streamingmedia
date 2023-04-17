@@ -1,0 +1,26 @@
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color:darkblue;
+    color:white;
+    text-align:center;
+ 
+} 
+nav li{
+    list-style:none;
+    display:inline;
+    
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+   
+}
+header{
+    background:linear-gradient(90deg,#2104D9,#020659);
+    color:white;
+    
+}
