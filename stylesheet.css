@@ -1,17 +1,23 @@
 
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 nav{
     background-color:darkblue;
     color:white;
     text-align:center;
+    
  
 } 
 nav li{
     list-style:none;
     display:inline;
-    
+    margin:85px;
+}
+nav li{
+    font-family:Tahoma;
+    font-variant:small-caps;
 }
 
 nav a{
@@ -19,8 +25,67 @@ nav a{
     text-decoration:none;
    
 }
+
+nav{
+    margin-bottom:-20px;
+    padding-bottom:20px;
+    padding-top:10px;
+}
+#muzakmaker{
+    font-size:25px;
+}
 header{
     background:linear-gradient(90deg,#2104D9,#020659);
     color:white;
-    
+    padding-bottom:10px;
+    margin-top:-10px;
+   
+}
+#smoothjazz{
+    margin-left:160px;
+}
+header p{
+    margin-left:30px;
+}
+
+header h2{
+    font-variant:small-caps;
+}
+
+
+
+
+audio::-webkit-media-controls-mute-button {
+
+}
+audio::-webkit-media-controls-play-button {
+
+}
+audio::-webkit-media-controls-enclosure {
+
+}
+
+#trending ::-webkit-scrollbar {
+
+}
+#trending ::-webkit-scrollbar-track {
+
+}
+#trending ::-webkit-scrollbar-thumb {
+
+}
+#trending ::-webkit-scrollbar-thumb:hover {
+
+}
+#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+
+}
+#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+
+}
+#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+
+}
+#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+
 }
